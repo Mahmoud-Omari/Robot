@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "450787615112",
+    "project_id": "challenge-robot",
+    "storage_bucket": "challenge-robot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450787615112:android:50c150f6c8a35bae599a3d",
+        "android_client_info": {
+          "package_name": "com.example.myapplication123456789"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450787615112-f45oc7of6tnvkdhfp4d3qfb8ht8nbs93.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbQzigKz2S1yV-oqQ0m2JkDR2sGZiNyqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "450787615112-f45oc7of6tnvkdhfp4d3qfb8ht8nbs93.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
