@@ -10,7 +10,7 @@
         android:layout_height="match_parent">
 
         <Button
-            android:id="@+id/btnsignup"
+            android:id="@+id/btn1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Sign Up"
@@ -18,7 +18,7 @@
             tools:layout_editor_absoluteY="464dp" />
 
         <EditText
-            android:id="@+id/etEmail"
+            android:id="@+id/etEmail1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -28,7 +28,7 @@
             tools:layout_editor_absoluteY="136dp" />
 
         <EditText
-            android:id="@+id/etPassword"
+            android:id="@+id/etPassword1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -38,7 +38,7 @@
             tools:layout_editor_absoluteY="290dp" />
 
         <EditText
-            android:id="@+id/etConfirmPassword"
+            android:id="@+id/etConfirmPassword1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"

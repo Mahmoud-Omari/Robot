@@ -1,5 +1,6 @@
 package com.example.myapplication123456789;
 
+import android.media.MediaPlayer;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,6 +8,10 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
+
+import com.google.android.gms.tasks.OnCompleteListener;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -14,6 +19,9 @@ import android.view.ViewGroup;
  * create an instance of this fragment.
  */
 public class SignUp extends Fragment {
+    private FirebaseServices fbss;
+    private EditText etEmail1, etPassword1;
+    private Button btn1;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -60,5 +68,24 @@ public class SignUp extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_sign_up, container, false);
+    }
+    @Override
+    public void onStart() {
+        super.onStart();
+        etEmail1=getActivity().findViewById(R.id.etEmail1);
+        etPassword1=getActivity().findViewById(R.id.eTPassword);
+        btn1=getActivity().findViewById(R.id.btnlogin);
+        fbss=FirebaseServices.getInstance();
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String email,password;
+                email=etEmail1.getText().toString();
+                password=etPassword1.getText().toString();
+
+                //fbss.getAuth().createUserWithEmailAndPassword()
+
+            }
+        });
     }
 }
